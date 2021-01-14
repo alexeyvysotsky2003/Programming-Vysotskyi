@@ -25,7 +25,7 @@ int cycle_do (int num);
  * @param result_do - резултат циклу do_while
 */
 
-int main() { /**за допомогою функції rand генерує псевдовипадкове 6-значне число. Викликає функції cycle_for, cycle_while, cycle_do*/
+int main() { /**Функція main: за допомогою функції rand генерує псевдовипадкове 6-значне число. Викликає функції cycle_for, cycle_while, cycle_do*/
 	srand(time(NULL));
     
 	int num = rand() % 899999 + 100000; // діапазон випадкого числа від 100 000 до 999 999
