@@ -18,7 +18,6 @@
  */
 
 #include "lib.h"
-#include <malloc.h>
 
 /**
  * Головна функція.
